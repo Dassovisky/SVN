@@ -1,0 +1,172 @@
+@import '_variaveis'; 
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $preto_1;
+}
+input::-moz-placeholder { /* Firefox 19+ */
+  color: $preto_1;
+}
+input:-ms-input-placeholder { /* IE 10+ */
+  color: $preto_1;
+}
+input:-moz-placeholder { /* Firefox 18- */
+  color: $preto_1;
+}
+
+body{
+    color: $branco_1;
+}
+
+.back_1{
+    position: fixed;
+    width: 100%;
+    height: 100%; 
+    background: -webkit-linear-gradient(to right, $cor_primary_2, $cor_primary_6);
+    background: linear-gradient(to right, $cor_primary_2, $cor_primary_6);
+//    background: url("../images/wallpaper/Congresso_do_Brasil.jpg") center / cover;
+}
+
+.logo_top{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    text-align: center;
+    
+    img{
+        width: 80%;
+        height: auto; 
+    }
+    
+}
+
+.login_container{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    text-align: center;
+
+    .form_login{
+        padding: 10%;
+        background: $branco__1;
+        
+        i{
+            position: relative;
+            font-size: 150px;
+        }
+        
+        .input{
+            width: 90%;
+            padding: 5%;  
+            margin: 10px 0;
+            color: $preto_1;
+            background: $branco__1;
+            border: 0;
+            
+            &:focus, &:hover{
+                background: $branco__2;
+            }
+            
+        }
+        
+        .button_login{
+            @include button;   
+            background: $branco__1;
+            color: $cor_back_1;
+            margin: 5px 0 0 0;
+            
+            &:hover{
+                background: $branco__2;
+            }
+            
+        }
+            
+        .mdl-textfield{
+            width: 100%;
+        
+            .mdl-textfield__input{
+                color: $preto_1;
+                border-color: $preto_1;
+            } 
+        
+        }
+            
+    }
+    
+    .form_cadastro{
+        @extend .form_login;
+        display: none;
+        
+        h4{
+            margin: 0 0 20px 0;
+            font-weight: bold;
+        }
+        
+    }
+    
+}
+
+/* Toggle Form */
+
+.toggle_container{
+    width: auto;
+    color: $preto_1;
+    background: $cor_primary_4;
+    
+    .toggle_form{
+        width: 100%;
+        height: auto;
+        padding: 25px 0 25px 8%;
+        font-weight: bold;
+    }
+    
+}
+   
+/* Redes Sociais */
+
+.social{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    text-align: center;
+    @include trans;
+    cursor: pointer;
+    border-radius: 100px;
+    
+    img{
+        width: 20%;
+    }    
+        
+}
+
+.face{       
+    background: $face;
+    
+    &:hover{
+        background: $face_hover;
+    }
+    
+}
+.instagram{
+    background: $instagram;
+    
+    &:hover{
+        background: $instagram_hover;
+    }
+    
+}
+.linkdin{
+    background: $linkdin;
+    
+    &:hover{
+        background: $linkdin_hover;
+    }
+    
+}
+.youtube{
+    background: $youtube;
+    
+    &:hover{
+        background: $youtube_hover;
+    }
+    
+}
