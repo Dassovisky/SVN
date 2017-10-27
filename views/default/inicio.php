@@ -7,11 +7,6 @@ $usuario = new usuario;
 session_start();
 
 $valida->ValidaSessao($_SESSION['usuarioid']);
-
-
-
-
-
 ?>
 
 <!DOCTYPE html>

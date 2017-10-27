@@ -15,9 +15,11 @@
       
         <main class="mdl-layout__content">
             <div class="page-content">
-
-                <?php include("../../views/usuario/perfil_conteudo.php");?>
-
+                <div class="container-fluid">
+                    
+                    <?php include("perfil_conteudo.php");?>
+                
+                </div>
             </div>
         </main>
     <!-- Fim -->
