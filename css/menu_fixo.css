@@ -15,7 +15,7 @@
 
 /* Menu */
 .mdl-layout__header {
-  background: #6EC7E0;
+  background: #86D9AB;
   color: #fff;
   -webkit-box-shadow: 1px 1px 15px -8px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 1px 15px -8px rgba(0, 0, 0, 0.75);
@@ -44,15 +44,14 @@
   .mdl-layout__header .menu_perfil {
     float: left;
     width: auto;
-    background: rgba(255, 255, 255, 0.2);
-    padding: 18px 25px;
+    padding: 19px 25px 18px 25px;
     background: rgba(255, 255, 255, 0.2);
     -webkit-transition: 0.3s ease-in-out;
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
     cursor: pointer; }
     .mdl-layout__header .menu_perfil:hover {
-      background: #79d9f4; }
+      background: #8ee8b6; }
     .mdl-layout__header .menu_perfil p {
       margin: 0 0 0 5px;
       float: right;

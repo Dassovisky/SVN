@@ -3,7 +3,7 @@
 
 /* Menu */
 .mdl-layout__header{
-    background: $cor_primary_5;
+    background: $cor_primary_1;
     color: $branco_1;
     @include shadow;
     
@@ -40,13 +40,12 @@
     .menu_perfil{
         float: left;
         width: auto;
-        background: $branco__1;
-        padding: 18px 25px;
+        padding: 19px 25px 18px 25px;
         background: $branco__1;
         @include trans;
         
         &:hover{
-            background: $cor_primary_6;
+            background: $cor_primary_2;
         }
                 
         p{

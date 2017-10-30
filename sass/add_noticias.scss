@@ -1,0 +1,58 @@
+@import '_variaveis';
+
+.add_noticias{
+    width: 100%;
+    margin: 50px 0;
+    
+    .mdl-textfield{
+        width: 100%;
+    }
+    
+}
+
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+}
+
+.btn {
+  border: none;
+  color: $preto__1;
+  background: transparent;
+  padding: 2px 35px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.button_add{
+    background: $cor_primary_1;
+    color: $branco_1;
+    @include trans;
+    
+    &:hover{
+        background: $cor_primary_2;
+    }
+    
+}
+
+.button_erase{
+    background: $cor_primary_7;
+    color: $branco_1;
+    @include trans;
+    
+    &:hover{
+        background: $cor_primary_8;
+    }
+    
+}
