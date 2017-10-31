@@ -1,0 +1,104 @@
+@import '_variaveis'; 
+
+
+/* Menu */
+.mdl-layout__header{
+    background: $cor_primary_1;
+    color: $branco_1;
+    @include shadow;
+    
+    .menu_logo{
+        width: auto;
+        height: 65%;
+    }
+    
+    .search_bar{
+        position: relative;
+        width: 100%;
+        height: 64px;
+        background: $branco_1;
+        display: none;
+        
+        i{
+            float: left;
+            color: $preto_1;
+            margin-left: 10%;
+            border: 0;
+        }
+        
+        input{
+            width: 70%;
+            height: auto;
+            font-size: 22px;
+            padding: 16px 0 0 0;
+            color: $preto_1;
+            border: 0;
+        }
+        
+    }
+    
+    .menu_perfil{
+        float: left;
+        width: auto;
+        background: $branco__1;
+        padding: 19px 25px 18px 25px;
+        background: $branco__1;
+        @include trans;
+        
+        &:hover{
+            background: $cor_primary_2;
+        }
+                
+        p{
+            margin: 0 0 0 5px;
+            float: right;
+            font-weight: 300;
+        }
+        
+        i{     
+            margin: 1px 0 0 0;
+            border: 0;
+            padding: 0;
+            
+            &:hover{
+                background: transparent; 
+            }
+
+        }
+        
+    }
+    
+    .mdl-badge.mdl-badge--overlap{
+        margin-right: -4px;
+    }
+    
+    #not{
+        font-size: 21px;
+        padding: 22px 21px 21px 19px;
+        @include trans;
+
+        
+        &:hover{
+            background: $branco__1; 
+        }
+                  
+        &:after {
+            right: 12px;
+            top: 10px;
+        }
+        
+    }
+    
+    i{
+        font-size: 21px;
+        padding: 21px 18px;
+        @include trans;
+        margin-right: -5px;
+
+        &:hover{
+            background: $branco__1; 
+        }
+        
+    }
+    
+}

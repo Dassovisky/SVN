@@ -1,0 +1,128 @@
+@import '_variaveis'; 
+
+/* Divs */
+.div{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    
+    h3{
+        font-weight: bold;    
+    }
+    
+    .div_title{
+        color: $preto_1;
+        margin-top: 20%;
+    }
+    
+}
+.div_ap{
+    padding: 0;
+    color: $branco_1;
+        
+}
+.div_1{
+    color: $preto_1;
+}
+.div_2{
+    color: $preto_1;
+    background: $cinza_1;
+}
+.div_3{
+    color: $preto_1;
+    text-align: center;
+    padding: 50px 0;
+    
+    img{
+        width: 100%;
+    }
+    
+}
+.div_4{
+    text-align: center;
+    padding-bottom: 0;
+    color: $branco_1;
+    background: $cor_primary_1;
+    
+    .mdl-grid, .mdl-cell--8-col, .mdl-cell--8-col-desktop.mdl-cell--8-col-desktop{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    
+    img{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+}
+/* Divs */
+
+/* Menu */
+.mdl-layout__drawer{
+    border: 0;
+    background: $branco_1;    
+    
+    .mdl-navigation{
+        padding: 0;
+        
+        .mdl-navigation__link {
+            padding: 25px 40px;
+            color: $cor_back_1;
+            font-weight: bold;
+            @include trans;
+
+            &:hover{
+                color: $cor_primary_1;
+                background: transparent;
+                border-left: 7px solid $cor_primary_1;
+            }
+
+            i {
+                font-size: 22px;
+                margin-bottom: 2px;
+                margin-right: 10px;
+            }
+
+        }
+        
+        .logo{
+            width: 100%;
+            height: auto;
+            padding-top: 90px;
+            padding-bottom: 100px;
+            text-align: center;
+            background: $cor_primary_1;
+
+            img{
+               width: 80%;
+               height: auto; 
+            }
+
+        }
+    
+    }
+        
+}
+
+
+/* footer */
+.mdl-mega-footer{
+    color: $preto_1;
+    background: $cor_back_1;
+    
+    a{
+        
+        &:hover{
+            color: $cor_primary_3;
+        }
+        
+    }
+    
+}
+
+.button_up{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    color: $cor_back_1;  
+}

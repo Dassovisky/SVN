@@ -1,0 +1,79 @@
+$font_face: "Raleway";
+
+$cor_primary_1: #86D9AB;
+$cor_primary_2: #8ee8b6;
+$cor_primary_3: #FCD27B;
+$cor_primary_4: #fddb93;
+$cor_primary_5: #6EC7E0;
+$cor_primary_6: #79d9f4;
+$cor_primary_7: #F7765F;
+$cor_primary_8: #f8907d;
+
+$cor_back_1: #22313F;
+$cor_back_2: #344b60;
+$cor_back_3: #52789a;
+$cor_back__1: rgba(54, 70, 78, 0.9);
+$cor_back__2: rgba(38, 50, 56, 0.9);
+$cor_back__3: rgba(111, 134, 146, 0.9);
+
+$preto_1: #787878;
+$preto_2: #434343;
+$preto__1: rgba(0, 0, 0, 0.2);
+$preto__2: rgba(0, 0, 0, 0.5);
+$preto__3: rgba(0, 0, 0, 0.8);
+
+$cinza_1: #fafafa;
+$cinza_2: #f9f9f9;
+$cinza_3: #e5e5e5;
+$branco_1: #fff;
+$branco_2: #efefef;
+$branco__1: rgba(255, 255, 255, 0.2);
+$branco__2: rgba(255, 255, 255, 0.5);
+$branco__3: rgba(255, 255, 255, 0.8);
+
+
+$face: #3b5998;
+$youtube: #bb0000;
+$instagram: #517fa4;
+$linkdin: #007bb6;
+
+$face_hover: #2c4376;
+$youtube_hover: #9d0000;
+$instagram_hover: #456d8d;
+$linkdin_hover: #02689a;
+
+@mixin trans{
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+@mixin button{
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    padding: 10px 0;
+    border: 0;
+    font-weight: bold;
+    border-radius: 0;
+    transition: 0.3s ease-in-out;
+}
+@mixin shadow{
+    -webkit-box-shadow: 1px 1px 15px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 15px -8px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 15px -8px rgba(0,0,0,0.75);
+}
+.div{
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+}
+.space{
+    padding: 0;
+    margin: 0;
+}
+.padding{
+    padding: 0;
+}
+.margin{
+    margin: 0;
+}
