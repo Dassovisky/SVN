@@ -69,13 +69,18 @@
     
     .mdl-badge.mdl-badge--overlap{
         margin-right: -4px;
+        
+        &:after{
+            color: $branco_1;
+            background: $cor_primary_7;
+        }
+        
     }
     
     #not{
         font-size: 21px;
         padding: 22px 21px 21px 19px;
-        @include trans;
-
+        @include trans;        
         
         &:hover{
             background: $branco__1; 

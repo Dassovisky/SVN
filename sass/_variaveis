@@ -1,11 +1,11 @@
 $font_face: "Raleway";
 
-$cor_primary_1: #86D9AB;
-$cor_primary_2: #8ee8b6;
+$cor_primary_6: #86D9AB;
+$cor_primary_5: #8ee8b6;
 $cor_primary_3: #FCD27B;
 $cor_primary_4: #fddb93;
-$cor_primary_5: #6EC7E0;
-$cor_primary_6: #79d9f4;
+$cor_primary_1: #6EC7E0;
+$cor_primary_2: #79d9f4;
 $cor_primary_7: #F7765F;
 $cor_primary_8: #f8907d;
 

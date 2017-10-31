@@ -8,7 +8,7 @@ body{
     width: 100%;
     height: auto;
     float: left;
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 0;
     background: $branco_1;
     @include shadow;
     text-align: center;
@@ -49,7 +49,7 @@ body{
     width: 100%;
     height: auto;
     float: left;
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 0;
     background: $branco_1;
     @include shadow;
     text-align: center;
@@ -61,9 +61,9 @@ body{
     
         .foto{
             position: relative;
-            top: 145px;
-            width: 28%;
-            height: auto;
+            top: 147px;
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
             border: 3px solid $branco_1;
         }
@@ -105,7 +105,7 @@ body{
     width: 100%;
     height: auto;
     float: left;
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 0;
     padding: 20px;
     background: $branco_1;
     @include shadow;

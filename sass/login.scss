@@ -21,8 +21,8 @@ body{
     position: fixed;
     width: 100%;
     height: 100%; 
-    background: -webkit-linear-gradient(to right, $cor_primary_2, $cor_primary_6);
-    background: linear-gradient(to right, $cor_primary_2, $cor_primary_6);
+    background: -webkit-linear-gradient(to right, $cor_primary_2, $cor_primary_5);
+    background: linear-gradient(to right, $cor_primary_2, $cor_primary_5);
 //    background: url("../images/wallpaper/Congresso_do_Brasil.jpg") center / cover;
 }
 
@@ -106,11 +106,10 @@ body{
 }
 
 /* Toggle Form */
-
 .toggle_container{
     width: auto;
-    color: $preto_1;
-    background: $cor_primary_4;
+    color: $branco_1;
+    background: $preto__1;
     
     .toggle_form{
         width: 100%;
